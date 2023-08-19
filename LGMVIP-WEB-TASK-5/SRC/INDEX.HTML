@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Result Management System</h1>
+        <form id="resultForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            
+            <label for="examScore">Exam Score:</label>
+            <input type="number" id="examScore" name="examScore" required>
+            
+            <label for="grade">Grade:</label>
+            <input type="text" id="grade" name="grade" readonly>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="resultDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
